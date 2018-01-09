@@ -1,0 +1,16 @@
+html {
+  background-color: black;
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
