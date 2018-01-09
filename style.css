@@ -6,7 +6,8 @@ html {
 }
 header {
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
+  justify-content: space-between;
   position: fixed;
   top: 0px;
   z-index: 1;
@@ -22,5 +23,11 @@ header img {
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
+}
+nav a {
+  color:seashell;
+  margin: 10px;
+
 }
