@@ -55,3 +55,30 @@ nav a {
   width:100%;
   line-height: .1;
 }
+.midbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.teabox {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.teas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 300px;
+}
