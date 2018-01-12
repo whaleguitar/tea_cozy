@@ -105,6 +105,7 @@ nav a {
 }
 .addbox {
   display: inline-flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 80px;
 }
@@ -117,10 +118,21 @@ nav a {
   width: 300px;
   height: 300px;
   margin: 0 20px 20px 20px;
+  opacity: 1;
 }
 .roads {
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 4.5;
+}
+.contact {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  line-height: 2.5;
+}
+.tag {
+  margin-left: 20px;
 }
