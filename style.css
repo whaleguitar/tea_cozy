@@ -42,6 +42,9 @@ nav a {
   justify-content: center;
   align-items: center;
   background-image: url(Resources/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 1200px;
   height: 700px;
   margin: 69px 10px 30px 10px;
@@ -99,6 +102,9 @@ nav a {
   flex-direction: column;
   align-items: center;
   background-image: url(Resources/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
   width: 1200px;
   min-height: 560px;
   margin-top: 60px;
