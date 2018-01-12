@@ -96,9 +96,31 @@ nav a {
 .window {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-image: url(Resources/img-locations-background.jpg);
   width: 1200px;
   height: 560px;
-margin-top: 60px;
-  object-fit: cover;
+  margin-top: 60px;
+}
+.addbox {
+  display: inline-flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0 20px 20px 20px;
+}
+.roads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 4.5;
 }
